@@ -71,6 +71,10 @@
         <groupId>com.google.cloud.tools</groupId>
         <artifactId>appengine-maven-plugin</artifactId>
         <version>${appengine.maven.plugin.version}</version>
+        <configuration>
+                <projectId>jenkinsdemouj</projectId>
+                <version>1</version>
+        </configuration>
       </plugin>
       
       <plugin>
